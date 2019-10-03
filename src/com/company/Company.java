@@ -21,7 +21,7 @@ public class Company {
 
         switch (menu.printMenuAndGetChoice()){
             case EMPLOYERS_LIST:
-                EmployersList employersList = new EmployersList();
+                EmployeesList employersList = new EmployeesList();
 
                 break;
             case NEW_EMPLOYER:

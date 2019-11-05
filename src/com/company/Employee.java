@@ -1,6 +1,6 @@
 package com.company;
 
-public class EmployeesList {
+public class Employee {
 
     private String name, surname;
     private char sex;
@@ -9,7 +9,11 @@ public class EmployeesList {
     private boolean marital_status;
 
 
-
+    public Employee(String name, String surname, char sex) {
+        this.name = name;
+        this.surname = surname;
+        this.sex = sex;
+    }
 
     public void overallView(){
         System.out.println("Imie: " +name+"\nNazwisko: " + surname+"\nPłeć: "+sex+"\nNumer działu:" +
@@ -18,7 +22,7 @@ public class EmployeesList {
     }
 
     public void primaryView(){
-        System.out.println("Imie: " +name+"\nNazwisko: " + surname+"\nPłaca: "+salary);
+        System.out.println("Imie: " +name+"\nNazwisko: " + surname+"\nPłaca: "+salary+ " zł");
     }
 
     public void specialView(){

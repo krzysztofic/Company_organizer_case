@@ -1,35 +1,49 @@
 package com.company;
 
+import com.Management_sys.Management_sys;
+
 import java.util.Scanner;
 
 public class Company {
 
     final static String EMPLOYERS_LIST = "Lista pracownikow";
-    final static String NEW_EMPLOYER = "Nowy pracownik";
+    final static String NEW_EMPLOYEE_TEST = "Nowy pracownik";
     final static String EXPORT_TO_FILE = "Eksport do pliku";
-
-    private static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
 
         Menu menu = new Menu(
                 EMPLOYERS_LIST,
-                NEW_EMPLOYER,
+                NEW_EMPLOYEE_TEST,
                 EXPORT_TO_FILE
                 );
 
+        Management_sys management = null;
 
-        switch (menu.printMenuAndGetChoice()){
-            case EMPLOYERS_LIST:
-                EmployeesList employersList = new EmployeesList();
+        while(true) {
 
-                break;
-            case NEW_EMPLOYER:
-                break;
-            case EXPORT_TO_FILE:
-                break;
-            default:
+            switch (menu.printMenuAndGetChoice()) {
+                case EMPLOYERS_LIST:
 
+                    try{
+                    management.displayAll();}
+                        catch( NullPointerException e){
+                            System.out.println("No employees");
+                        }
+                    break;
+
+                case NEW_EMPLOYEE_TEST :
+                    management = new Management_sys();
+                    management.addTestEmployee();
+                    break;
+
+                case EXPORT_TO_FILE:
+                    break;
+
+                default:
+                    System.out.println("Wrong choice!");
+
+            }
         }
     }
 }

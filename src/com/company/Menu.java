@@ -1,5 +1,7 @@
 package com.company;
 
+import com.Management_sys.Management_sys;
+
 import java.util.Scanner;
 
 public class Menu {

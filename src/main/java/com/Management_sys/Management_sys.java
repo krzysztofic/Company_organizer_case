@@ -1,34 +1,44 @@
 package com.Management_sys;
 
 import com.company.Employee;
-
 import java.util.ArrayList;
+import java.util.List;
+
 
 public class Management_sys {
 
-    ArrayList<Employee> employeelist = new ArrayList<>();
-    private Employee employee = null;
+    private List<Employee> employeeList = new ArrayList<>();
+
+    private New_Employee ne = new New_Employee();
+    private New_Employee_Test net = new New_Employee_Test();
+
+    private int employeeNumber = 0;
 
 
-    private Employee newEmployeeTest() {
-        employee = new Employee("Slawek", "Kowalski", 'M');
-        employee.setAge(25);
-        employee.setKids(4);
-        employee.setDepartment_nr(1);
-        employee.setSalary(3500);
-        employee.setMarital_status(true);
-        return employee;
+    public void addEmployeeToList() {
+        employeeList.add(ne.createNewEmployee());
+        employeeNumber++;
     }
 
     public void addTestEmployee() {
-        employeelist.add(newEmployeeTest());
+        employeeList.add(net.newEmployeeTest());
 
     }
 
     public void displayAll() {
-        for (Employee value : employeelist) {
-            value.primaryView();
-
+        employeeNumber = 0;
+        try {
+            for (Employee employee : employeeList) {
+                System.out.println(++employeeNumber + ". ");
+                employee.primaryView();
+            }
+        }catch(NullPointerException e){
+            System.out.println("No employees...");
         }
+
     }
+
+
+
+
 }

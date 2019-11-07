@@ -26,7 +26,7 @@ public class Management_sys {
     }
 
     public void displayAll() {
-        employeeNumber = 0;
+
         try {
             for (Employee employee : employeeList) {
                 System.out.println(++employeeNumber + ". ");
@@ -35,7 +35,6 @@ public class Management_sys {
         }catch(NullPointerException e){
             System.out.println("No employees...");
         }
-
     }
 
 

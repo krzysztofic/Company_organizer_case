@@ -10,6 +10,10 @@ public class New_Employee {
     Employee createNewEmployee() {
         Employee employee = new Employee(addName(), addSurname(), addSex());
         employee.setAge(addAge());
+        employee.setKids(addKids());
+        employee.setDepartment_nr(addDepartmentNumber());
+        employee.setSalary(addSalary());
+        employee.setMarital_status(addMaritalStatus());
         return employee;
     }
 
@@ -33,6 +37,27 @@ public class New_Employee {
         return scan.nextInt();
     }
 
+    private int addKids(){
+        System.out.println("How many kids: ");
+        return scan.nextInt();
+    }
+
+    private int addDepartmentNumber(){
+        System.out.println("Insert Department number: ");
+        return scan.nextInt();
+    }
+
+    private float addSalary(){
+        System.out.println("Insert Salary: ");
+        return scan.nextFloat();
+    }
+
+    private boolean addMaritalStatus(){
+
+        System.out.println("Is he married? (Y/N): ");
+        char x = scan.next().charAt(0);
+        return x == 'Y';
+    }
 }
 
 

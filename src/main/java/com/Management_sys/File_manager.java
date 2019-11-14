@@ -1,30 +1,30 @@
 package com.Management_sys;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
 
 public class File_manager {
 
-    private FileReader fr = null;
+    private Management_sys management = new Management_sys();
 
-    public String askForFileName(){
+    private String askForFileName() {
         System.out.println("Insert name of file: ");
         Scanner name = new Scanner(System.in);
         return name.nextLine();
     }
 
-    public void createFile() {
-        File file = new File("src\\Resources\\" +askForFileName()+".txt");
+    public void saveDataToFile() throws IOException {
+
+        ObjectOutputStream save = new ObjectOutputStream(new FileOutputStream("C:\\Users\\Renata\\IdeaProjects\\company" +
+                "\\src\\Resources\\" + askForFileName() + ".txt"));
         try {
-            file.createNewFile();
+            save.writeObject(management.employeeList);
+            save.flush();
+            save.close();
+
         } catch (IOException e) {
-            System.out.println("Error");
+            e.printStackTrace();
         }
     }
-
-
 
 }

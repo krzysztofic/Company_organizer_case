@@ -1,13 +1,18 @@
 package com.Management_sys;
 
 import com.company.Employee;
+
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class Management_sys {
+public class Management_sys{
 
-    private List<Employee> employeeList = new ArrayList<>();
+    ArrayList<Employee> employeeList = new ArrayList<>();
+
+    List<Employee> getEmployeeList() {   //getter to use in File_manager
+        return employeeList;
+    }
 
     private New_Employee ne = new New_Employee();
     private New_Employee_Test net = new New_Employee_Test();
@@ -36,8 +41,4 @@ public class Management_sys {
             System.out.println("No employees...");
         }
     }
-
-
-
-
 }

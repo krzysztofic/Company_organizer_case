@@ -1,6 +1,8 @@
 package com.company;
 
-public class Employee {
+import java.io.Serializable;
+
+public class Employee implements Serializable {
 
     private String name, surname;
     private char sex;
@@ -105,6 +107,20 @@ public class Employee {
 
     public void setMarital_status(boolean marital_status) {
         this.marital_status = marital_status;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", sex=" + sex +
+                ", department_nr=" + department_nr +
+                ", age=" + age +
+                ", kids=" + kids +
+                ", salary=" + salary +
+                ", marital_status=" + marital_status +
+                '}';
     }
 }
 

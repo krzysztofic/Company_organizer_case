@@ -6,9 +6,10 @@ import java.util.Scanner;
 public class New_Employee {
 
     private Scanner scan = new Scanner (System.in);
+    private Employee employee;
 
     Employee createNewEmployee() {
-        Employee employee = new Employee(addName(), addSurname(), addSex());
+        employee = new Employee(addName(), addSurname(), addSex());
         employee.setAge(addAge());
         employee.setKids(addKids());
         employee.setDepartment_nr(addDepartmentNumber());

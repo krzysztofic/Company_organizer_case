@@ -1,8 +1,6 @@
 package com.company;
 
-import java.io.Serializable;
-
-public class Employee implements Serializable {
+public class Employee {
 
     private String name, surname;
     private char sex;

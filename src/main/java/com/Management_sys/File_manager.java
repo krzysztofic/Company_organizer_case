@@ -1,5 +1,7 @@
 package com.Management_sys;
 
+import com.company.Employee;
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -15,12 +17,14 @@ public class File_manager {
 
     public void saveDataToFile() throws IOException {
 
-        ObjectOutputStream save = new ObjectOutputStream(new FileOutputStream("C:\\Users\\Renata\\IdeaProjects\\company" +
+        BufferedWriter save = new BufferedWriter(new FileWriter("C:\\Users\\Renata\\IdeaProjects\\company" +
                 "\\src\\Resources\\" + askForFileName() + ".txt"));
         try {
-            save.writeObject(management.employeeList);
-            save.flush();
-            save.close();
+            for(Employee e : management.getEmployeeList()) {
+                save.write(e.toString());
+                save.newLine();
+            }
+                save.close();
 
         } catch (IOException e) {
             e.printStackTrace();

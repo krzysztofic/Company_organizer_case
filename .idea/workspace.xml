@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9308ef2-ace4-4e8f-b402-9650281757df" name="Default Changelist" comment="First version of File Manager.">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Management_sys/Additional_options.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Management_sys/Additional_optionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Management_sys/File_manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Management_sys/File_manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Management_sys/Management_sys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Management_sys/Management_sys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Management_sys/New_Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Management_sys/New_Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Management_sys/New_Employee.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Employee.java" afterDir="false" />
     </list>
@@ -23,11 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Management_sys/Additional_options.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="-134">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -35,8 +45,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+            <state relative-caret-position="-1166">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#990#991#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Management_sys/File_manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="280">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,22 +70,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Management_sys/Management_sys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="697">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Management_sys/New_Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -81,8 +86,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -105,11 +110,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/Management_sys/New_Employee_Test.java" />
         <option value="$PROJECT_DIR$/src/Resources/s.dat" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Management_sys/Additional_optionsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/Company.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Management_sys/Management_sys.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Management_sys/New_Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Management_sys/Additional_options.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Management_sys/File_manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Management_sys/Management_sys.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/Company.java" />
       </list>
     </option>
   </component>
@@ -130,8 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,17 +200,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Management_sys" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TicTacToeJava20/src/main/com/company/game/tictactoe/Main.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -257,6 +279,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Additional_optionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Management_sys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Management_sys" />
+      <option name="MAIN_CLASS_NAME" value="com.Management_sys.Additional_optionsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Additional_optionsTest.employeesWithSpecifiedSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Management_sys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Management_sys" />
+      <option name="MAIN_CLASS_NAME" value="com.Management_sys.Additional_optionsTest" />
+      <option name="METHOD_NAME" value="employeesWithSpecifiedSalary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="File_managerTest.createFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="company" />
       <extension name="coverage">
@@ -276,6 +329,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Company" />
+        <item itemvalue="JUnit.Additional_optionsTest" />
+        <item itemvalue="JUnit.Additional_optionsTest.employeesWithSpecifiedSalary" />
         <item itemvalue="Application.File_manager" />
         <item itemvalue="JUnit.File_managerTest.createFile" />
       </list>
@@ -292,6 +347,14 @@
       <option name="presentableId" value="Default" />
       <updated>1568655775170</updated>
     </task>
+    <task id="LOCAL-00001" summary="First version of File Manager.">
+      <created>1573765737951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573765737951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -307,6 +370,24 @@
     <history-entry file="File_managerTest_createFile - 2019.11.05 at 23h 00m 47s.xml">
       <configuration name="File_managerTest.createFile" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Additional_optionsTest_employeesWithSpecifiedSalary - 2019.11.15 at 00h 10m 21s.xml">
+      <configuration name="Additional_optionsTest.employeesWithSpecifiedSalary" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Additional_optionsTest_employeesWithSpecifiedSalary - 2019.11.15 at 00h 11m 38s.xml">
+      <configuration name="Additional_optionsTest.employeesWithSpecifiedSalary" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Additional_optionsTest_employeesWithSpecifiedSalary - 2019.11.15 at 00h 12m 27s.xml">
+      <configuration name="Additional_optionsTest.employeesWithSpecifiedSalary" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Additional_optionsTest_employeesWithSpecifiedSalary - 2019.11.15 at 00h 13m 44s.xml">
+      <configuration name="Additional_optionsTest.employeesWithSpecifiedSalary" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Additional_optionsTest_employeesWithSpecifiedSalary - 2019.11.15 at 00h 16m 59s.xml">
+      <configuration name="Additional_optionsTest.employeesWithSpecifiedSalary" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Additional_optionsTest - 2019.11.16 at 12h 45m 37s.xml">
+      <configuration name="Additional_optionsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,8 +401,8 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.2397882" />
+      <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.2322239" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -329,14 +410,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31751227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38134205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32242227" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32242227" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -381,68 +462,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="First version of File Manager." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../SDA/src/blok1/weekend3/OOP/Pracownik.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Management_sys/Management_sys.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Employee.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Company.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Management_sys/File_managerTest.java" />
-    <entry file="file://$PROJECT_DIR$/emplooye1.txt" />
-    <entry file="file://$USER_HOME$/Documents/SDA/src/main/java/pl/sdaacademy/java20poz/weekend8/Files/File.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/SDA/src/main/java/pl/sdaacademy/java20poz/weekend7/algorithms/sort/AlgorithmSort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/SDA/src/main/java/pl/sdaacademy/java20poz/weekend8/Files/Program.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/io/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/io/BufferedWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
-          <folding>
-            <element signature="e#2094#2095#0" expanded="true" />
-            <element signature="e#2142#2143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/test.txt" />
     <entry file="file://$PROJECT_DIR$/src/Resources/test2.txt" />
     <entry file="file://$PROJECT_DIR$/test.txt" />
@@ -469,25 +488,8 @@
     <entry file="file://$PROJECT_DIR$/src/Resources/a.dat" />
     <entry file="file://$PROJECT_DIR$/src/Resources/ds.txt" />
     <entry file="file://$PROJECT_DIR$/src/Resources/s.dat" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Management_sys/New_Employee_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/plik2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/plik.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/jeden.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/plik2.txt" />
+    <entry file="file://$PROJECT_DIR$/src/Resources/plik.txt" />
     <entry file="file://$PROJECT_DIR$/../Hangman_objected/src/com/company/game/hangman/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204" />
@@ -498,19 +500,148 @@
         <state relative-caret-position="-51" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/asd.txt" />
+    <entry file="file://$PROJECT_DIR$/src/Resources/qas.txt" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="3057" selection-start-line="3057" selection-end-line="3057" />
+          <folding>
+            <element signature="e#122041#122042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="812" selection-start-line="812" selection-end-line="812" />
+          <folding>
+            <element signature="e#24151#24152#0" expanded="true" />
+            <element signature="e#24191#24192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Management_sys/New_Employee_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="437" selection-start-line="437" selection-end-line="437" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/git/TDD/JavaPoz20TDDExercises/src/test/java/pl/jnowacki/junit/AssertionsExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-724" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/git/TDD/JavaPoz20TDDExercises/src/test/java/pl/jnowacki/assertj/AssertionsExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="1539" selection-start-line="1539" selection-end-line="1539" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.4.0-M1/junit-jupiter-api-5.4.0-M1-sources.jar!/org/junit/jupiter/api/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/jeden.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/asddfwqe.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/aaa.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/1234.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Management_sys/Additional_optionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/abcdan.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/123654.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/a.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/asd.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Management_sys/Additional_options.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/qas.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1166">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Management_sys/File_manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="280">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/b.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Management_sys/New_Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -519,34 +650,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Management_sys/Management_sys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Management_sys/New_Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="-134">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>

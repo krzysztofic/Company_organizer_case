@@ -15,6 +15,17 @@ public class Employee {
         this.sex = sex;
     }
 
+    public Employee(String name, String surname, int department_nr, int age, int kids, float salary, boolean marital_status) {
+        this.name = name;
+        this.surname = surname;
+        //this.sex = sex;
+        this.department_nr = department_nr;
+        this.age = age;
+        this.kids = kids;
+        this.salary = salary;
+        this.marital_status = marital_status;
+    }
+
     public void overallView(){
         System.out.println("Imie: " +name+"\nNazwisko: " + surname+"\nPłeć: "+sex+"\nNumer działu:" +
                +department_nr+"\nWiek: "+age+"\nLiczba dzieci: "+kids+"\nPłaca: "+salary+"\nStan Cywilny: "+marital_status);
@@ -109,16 +120,14 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", sex=" + sex +
-                ", department_nr=" + department_nr +
-                ", age=" + age +
-                ", kids=" + kids +
-                ", salary=" + salary +
-                ", marital_status=" + marital_status +
-                '}';
+        return  name + ";" +
+                surname + ";" +
+                sex + ";" +
+                age + ";" +
+                kids + ";" +
+                department_nr + ";" +
+                salary + ";" +
+                marital_status +";";
     }
 }
 

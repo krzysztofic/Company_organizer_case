@@ -11,6 +11,7 @@ public class Company {
     final static String NEW_EMPLOYEE_TEST = "Nowy pracownik testowy";
     final static String NEW_EMPLOYEE = "Nowy pracownik";
     final static String EXPORT_TO_FILE = "Eksport do pliku";
+    final static String IMPORT_FROM_FILE = "Wczytaj dane z pliku";
     final static String ADDITIONAL_MENU = "Opcje dodatkowe";
     final static String EMPLOYEES_WITH_SPECIFIED_SALARY = "Pracownicy z określonymi dochodami";
     final static String CALCULATE_AVERAGE_SALARY_IN_THE_DEPARTMENT = "Oblicz średnią płacę w danym dziale";
@@ -23,6 +24,7 @@ public class Company {
                 //NEW_EMPLOYEE_TEST,
                 NEW_EMPLOYEE,
                 EXPORT_TO_FILE,
+                IMPORT_FROM_FILE,
                 ADDITIONAL_MENU
                 );
 
@@ -58,6 +60,10 @@ public class Company {
 
                 case EXPORT_TO_FILE:
                     file_manager.saveDataToFile();
+                    break;
+
+                case IMPORT_FROM_FILE:
+                    file_manager.readDataFromFile();
                     break;
 
                 case ADDITIONAL_MENU:

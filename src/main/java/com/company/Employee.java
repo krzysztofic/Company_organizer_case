@@ -15,10 +15,10 @@ public class Employee {
         this.sex = sex;
     }
 
-    public Employee(String name, String surname, int department_nr, int age, int kids, float salary, boolean marital_status) {
+    public Employee(String name, String surname, char sex, int department_nr, int age, int kids, float salary, boolean marital_status) {
         this.name = name;
         this.surname = surname;
-        //this.sex = sex;
+        this.sex = sex;
         this.department_nr = department_nr;
         this.age = age;
         this.kids = kids;

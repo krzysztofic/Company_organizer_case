@@ -3,8 +3,6 @@ package com.Management_sys;
 import com.company.Employee;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 import static java.lang.Integer.parseInt;
@@ -46,14 +44,13 @@ public class File_manager {
             while ((newLine = read.readLine()) != null) {
                 try {
                     String[] elements = newLine.split(";");
-                    //char sex = 'K';
-                    //        elements[4] = Character.toString(sex);
-                    int age = parseInt(elements[2]);
-                    int kids = parseInt(elements[3]);
-                    int department_number = parseInt(elements[4]);
-                    float salary = Float.parseFloat(elements[5]);
-                    boolean marital_status = Boolean.parseBoolean(elements[6]);
-                    Employee e = new Employee(elements[0],elements[1], age, kids, department_number, salary, marital_status);
+                    char sex = elements[2].charAt(0);
+                    int age = parseInt(elements[3]);
+                    int kids = parseInt(elements[4]);
+                    int department_number = parseInt(elements[5]);
+                    float salary = Float.parseFloat(elements[6]);
+                    boolean marital_status = Boolean.parseBoolean(elements[7]);
+                    Employee e = new Employee(elements[0],elements[1], sex, age, kids, department_number, salary, marital_status);
                     management.getEmployeeList().add(e);
                 }catch(NumberFormatException nfe){
                     System.out.println("Something goes wrong...");

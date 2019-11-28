@@ -36,7 +36,7 @@ public class File_manager {
 
     public void readDataFromFile() {
 
-
+        showFilesToRead();
         try {
             BufferedReader read = new BufferedReader(new FileReader("C:\\Users\\Renata\\IdeaProjects\\company" +
                     "\\src\\Resources\\" + askForFileName() + ".txt"));
@@ -65,6 +65,23 @@ public class File_manager {
         }
 
     }
+
+    private void showFilesToRead(){
+
+        File[] paths;
+        File f = new File("C:\\Users\\Renata\\IdeaProjects\\company\\src\\Resources\\");
+        paths = f.listFiles();
+
+
+        try {
+            for (File files : paths) {
+                System.out.println("Available files: \n" + files.getName() + "\n");
+            }
+        }catch(NullPointerException e){
+            System.out.println("No available files");
+        }
+    }
+
 
 
 }

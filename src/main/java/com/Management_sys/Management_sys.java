@@ -3,6 +3,7 @@ package com.Management_sys;
 import com.company.Employee;
 
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -69,8 +70,12 @@ public class Management_sys{
     }
 
     private char addSex(){
-        System.out.println("Insert sex: ");
-        return scan.next().charAt(0);
+        char sex = ' ';
+        System.out.println("Insert sex: (M or F)");
+        while(!v.isGenderValid(sex)){
+            sex = scan.next().charAt(0);
+        }
+        return sex;
     }
 
     private int addAge(){

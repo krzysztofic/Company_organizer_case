@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class Management_sys{
 
     private Scanner scan = new Scanner(System.in);
+    private Validators v = new Validators();
 
     private Employee employee;
     private int employeeNumber = 0;
@@ -39,7 +40,7 @@ public class Management_sys{
     }
 
 
-    Employee createNewEmployee() {
+    private Employee createNewEmployee() {
         employee = new Employee(addName(), addSurname(), addSex());
         employee.setAge(addAge());
         employee.setKids(addKids());
@@ -50,13 +51,21 @@ public class Management_sys{
     }
 
     private String addName(){
+        String name = "";
         System.out.println("Insert name: ");
-        return scan.next();
+        while(!v.isNameValid(name)) {
+            name = scan.next();
+        }
+        return name;
     }
 
     private String addSurname(){
+        String surname = "";
         System.out.println("Insert surname: ");
-        return scan.next();
+        while(!v.isSurnameValid(surname)) {
+            surname = scan.next();
+        }
+        return surname;
     }
 
     private char addSex(){

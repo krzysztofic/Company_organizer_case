@@ -27,5 +27,28 @@ class ValidatorsTest {
         assertFalse(valid.isGenderValid(sex));
     }
 
+    @Test
+    void isAgeValid() {
+        int age = 'k';
+        assertFalse(valid.isAgeValid(age));
+    }
 
+    @Test
+    void isAgeNegative() {
+        int age = -7;
+        assertFalse(valid.isAgeValid(age));
+    }
+
+    @Test
+    void isSalaryValid() {
+        float salary = 46.87F;
+        assertTrue(valid.isSalaryValid(salary));
+    }
+
+    @Test
+    void isMaritalStatusValid() {
+        char x = 'Y';
+        assertTrue(valid.isMaritalStatusValid(x));
+
+    }
 }

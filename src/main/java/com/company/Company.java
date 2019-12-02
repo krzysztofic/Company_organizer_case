@@ -17,7 +17,7 @@ public class Company {
     final static String CALCULATE_AVERAGE_SALARY_IN_THE_DEPARTMENT = "Oblicz średnią płacę w danym dziale";
     final static String GO_BACK = "Wróć";
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args){
 
         Menu menu = new Menu(
                 EMPLOYERS_LIST,

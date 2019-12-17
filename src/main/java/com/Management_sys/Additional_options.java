@@ -16,5 +16,28 @@ public class Additional_options {
         return employeesWithSpecifiedSalary;
     }
 
+    private int departmentSize(int departmentNumber) {
+        int employeesInDepartment = 0;
+        for (int i = 0; i < management.getEmployeeList().size(); i++) {
+            if (management.getEmployeeList().get(i).getDepartment_nr() == departmentNumber) {
+                employeesInDepartment++;
+            }
+        }
+        return employeesInDepartment;
+    }
 
+    public double averageSalaryInDepartment(int departmentNumber){
+
+        double averageSalary = 0;
+        int size = departmentSize(departmentNumber);
+
+        for (int i = 0; i < management.getEmployeeList().size(); i++) {
+            if(management.getEmployeeList().get(i).getDepartment_nr() == departmentNumber){
+                averageSalary +=management.getEmployeeList().get(i).getSalary();
+            }
+        }
+        averageSalary /= size;
+
+        return averageSalary;
+    }
 }

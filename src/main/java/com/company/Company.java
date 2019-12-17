@@ -79,6 +79,10 @@ public class Company {
                                 break;
 
                             case CALCULATE_AVERAGE_SALARY_IN_THE_DEPARTMENT:
+                                Additional_options add = new Additional_options();
+                                System.out.println("Insert department Number: ");
+                                int departmentNumber = scan.nextInt();
+                                System.out.println(add.averageSalaryInDepartment(departmentNumber));
                                 break;
 
                             case GO_BACK:
